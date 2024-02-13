@@ -4211,7 +4211,7 @@ section.lazy-placeholder:after {
 .cid-ty7YRfHcby .line {
   background-color: #107905;
   color: #107905;
-  align: center;
+  box-align: center;  /* changed from align to box-align as there was a problem shown in this line by VS code*/
   height: 2px;
   margin: 0 auto;
 }
