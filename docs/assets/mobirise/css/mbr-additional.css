@@ -3666,15 +3666,16 @@ section.lazy-placeholder:after {
 }
 
 .cid-tyrRdDXMeX .carousel-caption {
-  top: 50%;
+  /* top: 50%; */  
   right: 0;
   bottom: auto;
   left: 0;
   display: -webkit-flex;
   align-items: center;
   -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
+  transform: translateY(-80%);
   -webkit-align-items: center;
+  background: linear-gradient(0deg,#002b45,transparent);
 }
 
 .cid-tyrRdDXMeX .mbr-overlay {
