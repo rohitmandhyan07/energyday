@@ -2832,8 +2832,8 @@ section.lazy-placeholder:after {
   color: #ffffff;
   text-align: center;
 }
-.cid-tysq0fs2WD .card-title {
-  color: #ffffff;
+.cid-tysq0fs2WD .card-title { /*Changed colour of text from white(#ffffff) to #002b45 */
+  color: #002b45;
   text-align: center;
 }
 .cid-tysr9IV7lY {
@@ -2903,13 +2903,13 @@ section.lazy-placeholder:after {
   opacity: .5;
 }
 .cid-tysr9IV7lY .card-title {
-  color: #ffffff;
+  color: #002b45;  /*Changed text colour from White(#ffffff) to #002b45 */
   text-align: center;
 }
 .cid-txKNebOXG9 {
   padding-top: 15px;
   padding-bottom: 0px;
-  background-color: #002b45;   /*background-color: #0f7699;*/
+  background-color: #002b45;   /*Initial background-color 2023: #0f7699; changed to #002b45 for 2024*/
 }
 .cid-txKNebOXG9 .mbr-text,
 .cid-txKNebOXG9 blockquote {
@@ -3252,7 +3252,7 @@ section.lazy-placeholder:after {
   color: #767676;
 }
 .cid-tzNSestvJn H4 {
-  color: #ffffff;
+  color: #002b45;  /*changed White(#ffffff) text in FAQ's to #002b45 */
 }
 .cid-tzNSestvJn .panel-text {
   color: #000000;
@@ -3403,7 +3403,7 @@ section.lazy-placeholder:after {
 .cid-ty7UmnEdsN {
   padding-top: 15px;
   padding-bottom: 0px;
-  background-color: #107905;
+  background-color: #002b45;
 }
 .cid-ty7UmnEdsN .mbr-text,
 .cid-ty7UmnEdsN blockquote {
