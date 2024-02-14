@@ -2807,12 +2807,12 @@ section.lazy-placeholder:after {
 }
 
 .cid-tydjNUkMLL H1 {
-  text-align: left;
+  text-align: center;   /* changed from  left to center*/
   color: #ffffff;
 }
 
 .cid-tydjNUkMLL H3 {
-  text-align: left;
+  text-align: center;    /* changed from left to center*/
   color: #ffffff;
 }
 
