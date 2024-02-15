@@ -4917,7 +4917,8 @@ section.lazy-placeholder:after {
 }
 
 .cid-txHNw3V5uc .carousel-caption {
-  top: 50%;
+  top: 70%;    /* 50 to 70 */
+  background: linear-gradient(0, transparent, #474747, black, #474747, transparent);
   right: 0;
   bottom: auto;
   left: 0;
