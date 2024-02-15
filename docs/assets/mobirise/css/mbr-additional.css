@@ -4188,8 +4188,11 @@ section.lazy-placeholder:after {
 }
 
 .cid-ty7X3Hur0U {
+  background: #107905
+  /* 
   background: #796627;
-  background: linear-gradient(0deg, #796627, #d0f0d6);
+  background: linear-gradient(0deg, #796627, #d0f0d6);  
+  */
 }
 
 .cid-ty7X3Hur0U .video-block {
