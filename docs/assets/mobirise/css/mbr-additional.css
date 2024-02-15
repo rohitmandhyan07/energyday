@@ -1487,7 +1487,9 @@ section.lazy-placeholder:after {
 
 .cid-ty7LsD1BdP .modal-body .carousel-item {
   top: 50%;
+  /*
   transform: translateY(-50%);
+  */
 }
 
 .cid-ty7LsD1BdP .modal-body img {
