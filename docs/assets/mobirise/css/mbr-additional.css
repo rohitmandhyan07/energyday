@@ -1543,8 +1543,9 @@ section.lazy-placeholder:after {
 .cid-st8gthIM3m {
   padding-top: 0px;
   padding-bottom: 45px;
+  background-color:#E9FDFF;
   /* background-color: #E6F4F1; */
-  background-color: #E9FDFF;/* Updated 17-02-2024 2:59 AM RMD*/
+/*   background-color: #E9FDFF;  /* Updated 17-02-2024 2:59 AM RMD */
     /* */
   ;
   overflow: hidden;
@@ -1693,6 +1694,7 @@ section.lazy-placeholder:after {
   display: flex;
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
+  justify-content:space-evenly;
 }
 
 .cid-tyC4ec8EE0 .social-list .mbr-iconfont-social {
@@ -2732,6 +2734,7 @@ section.lazy-placeholder:after {
   display: flex;
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
+  justify-content:space-evenly;
 }
 
 .cid-tyFN2kpZu0 .social-list .mbr-iconfont-social {
@@ -4083,6 +4086,7 @@ section.lazy-placeholder:after {
   display: flex;
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
+  justify-content:space-evenly;
 }
 
 .cid-tyFMHaUHuE .social-list .mbr-iconfont-social {
@@ -5256,6 +5260,7 @@ section.lazy-placeholder:after {
   display: flex;
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
+  justify-content:space-evenly;
 }
 
 .cid-tyFMNEFQQQ .social-list .mbr-iconfont-social {
