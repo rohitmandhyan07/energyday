@@ -2835,12 +2835,12 @@ section.lazy-placeholder:after {
 }
 
 .cid-tydjNUkMLL H1 {
-  text-align: center;   /* changed from  left to center*/
+  text-align: left; 
   color: #ffffff;
 }
 
 .cid-tydjNUkMLL H3 {
-  text-align: center;    /* changed from left to center*/
+  text-align: left;
   color: #ffffff;
 }
 
@@ -6139,4 +6139,8 @@ section.lazy-placeholder:after {
 .cid-tyFMUksX86 .foot-title {
   text-align: left;
   color: #ffffff;
+}
+
+.cid-home-head{
+  transform: translate(20%, -60%);
 }
