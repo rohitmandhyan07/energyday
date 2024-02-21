@@ -535,7 +535,13 @@ body {
   background-color: #ffffff;
   border-color: #ffffff;
 }
-
+.hoverclass{
+  color: #005b75;
+}
+.hoverclass:hover, .hoverclass:focus{
+  background-color: #005b75;
+  color: white;
+}
 .text-primary {
   color: #232323 !important;
 }
@@ -4201,6 +4207,7 @@ section.lazy-placeholder:after {
 
 .cid-tyhxCOeXIX {
   background-image: url("../../images/Dese-Bldg/Dese-Bldg-0.jpg");
+  opacity: 0.7  ;
 }
 
 .cid-tyhxCOeXIX H1 {
