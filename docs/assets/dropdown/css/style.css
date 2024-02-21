@@ -34,6 +34,9 @@
   .navbar-dropdown.bg-color.transparent {
     background: none;
   }
+  .navbar-dropdown.bg-color.lin-grad-nav.transparent {
+    background: linear-gradient(180deg, #005b75, transparent);
+  }
   .navbar-dropdown.navbar-short .navbar-brand {
     padding: 0.625rem 0; }
     .navbar-dropdown.navbar-short .navbar-brand span {
