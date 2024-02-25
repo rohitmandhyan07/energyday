@@ -32,7 +32,7 @@
   .navbar-dropdown .navbar-brand span {
     vertical-align: -4px; }
   .navbar-dropdown.bg-color.transparent {
-    background: none;
+/*     background: none; */
   }
   .navbar-dropdown.bg-color.lin-grad-nav.transparent {
     background: linear-gradient(180deg, #005b75, transparent);
