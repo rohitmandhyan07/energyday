@@ -6154,3 +6154,31 @@ section.lazy-placeholder:after {
 .cid-home-head{
   transform: translate(20%, -60%);
 }
+.table-schedule{
+  /* border: 0.4rem solid black; */
+  margin: auto;
+  width: 100%;
+}
+.table-schedule td, .table-schedule tr{
+  color: black;
+  border: 0.2rem solid black ;
+  border-color: #e9fdff;
+  border-collapse: collapse;
+  /* background-color: #ffebcc; */
+  background-color: #d2dceb;
+  font-size: 20.8px;
+  text-align: center;
+  line-height: 2;
+}
+.table-sch-head{
+  color: black;
+  margin: 1rem ;
+}
+.td-left{
+  font-weight: bold;
+  width: 40%;
+}
+.td-right{
+  /* background-color: #fff4ec !important;  */
+  background-color: #ffffff !important; 
+}
