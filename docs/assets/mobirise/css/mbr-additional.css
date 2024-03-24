@@ -6182,3 +6182,9 @@ section.lazy-placeholder:after {
   /* background-color: #fff4ec !important;  */
   background-color: #ffffff !important; 
 }
+.event-image{
+  width:100%;
+}
+.event-image-potrait{
+  width:100%;
+}
