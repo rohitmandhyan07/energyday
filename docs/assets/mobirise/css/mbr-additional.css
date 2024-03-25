@@ -6236,6 +6236,7 @@ section.lazy-placeholder:after {
   }
   .text-right{
     font-size: 13.6px;
+    margin-bottom: 8%;
   }
 }
 @media screen and (min-width: 374px) and (max-width: 500px) {/* for Middle(375px) and Large(425px) size mobiles */
@@ -6244,6 +6245,7 @@ section.lazy-placeholder:after {
   }
   .text-right{
     font-size: 16.2px;
+    margin-bottom: 8%;
   }
 }
 
@@ -6254,6 +6256,7 @@ section.lazy-placeholder:after {
   }
   .text-right{
     font-size: 13px;
+    margin-bottom: 4%;
   }
   .potrait-image-text{
     /* top:50%; */
@@ -6269,5 +6272,8 @@ section.lazy-placeholder:after {
     /* top:50%; */
     transform : translateY(10%);
   
+  }
+  .image-left{
+    margin-bottom: 2%;
   }
 }
