@@ -6257,7 +6257,7 @@ section.lazy-placeholder:after {
   }
   .potrait-image-text{
     /* top:50%; */
-    transform : translateY(25%);
+    transform : translateY(15%);
   
   }
 }
@@ -6267,7 +6267,7 @@ section.lazy-placeholder:after {
   }
   .potrait-image-text{
     /* top:50%; */
-    transform : translateY(25%);
+    transform : translateY(10%);
   
   }
 }
