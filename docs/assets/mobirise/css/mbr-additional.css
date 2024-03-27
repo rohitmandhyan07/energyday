@@ -6277,3 +6277,92 @@ section.lazy-placeholder:after {
     margin-bottom: 2%;
   }
 }
+
+
+/* css for past academic highlights  */
+.acad-row-heading{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    font-display: swap;
+    /* opacity: .8;  */
+    /* transform: translate(-24.5%,-4.1%); */
+    /* text-align:left; */
+  
+  }
+.acad-row-heading>.mbr-iconfont {
+    font-size: 2.5rem;
+  }  
+.div-row-acad{
+  border:1px solid #e9fdff;
+}
+.image-left-acad{
+  /* max-width: 40%;
+  display: inline-block; */
+  /* position: absolute; */
+  float:left;
+  width:50%;
+  padding:2px;
+  
+}
+.text-right-acad::after{
+  /* display: table;
+  display: inline-block;
+  position: absolute; */
+  content: "";
+  clear: both;
+  display: table;
+}
+.text-right-acad{
+  color: black;
+  font-size : 20.8px;
+  text-align: center !important; 
+}
+
+@media screen and (max-width: 300px) {
+  /* .text-right{
+    width:100%;
+  }   */
+  .image-left-acad{
+    width: 100%;
+  }
+}
+@media screen and (min-width: 301px) and (max-width: 373px) {/* for Small sized mobiles (320px etc.)*/
+  .image-left-acad{
+    width: 100%;
+  }
+  .text-right-acad{
+    font-size: 13.6px;
+    margin-bottom: 8%;
+  }
+}
+@media screen and (min-width: 374px) and (max-width: 500px) {/* for Middle(375px) and Large(425px) size mobiles */
+  .image-left-acad{
+    width: 100%;
+  }
+  .text-right-acad{
+    font-size: 16.2px;
+    margin-bottom: 8%;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 769px){/* For tablet size ~ 768px*/
+  .image-left-acad{
+    width: 55%;
+    
+  }
+  .text-right-acad{
+    font-size: 13px;
+    margin-bottom: 4%;
+  }
+}
+@media screen and (min-width: 770px) { /* for bigger than tablet , eg. laptop(1024px, 1520px) tv etc. */
+  .text-right-acad{
+    margin-top: 6%;
+  }
+  .image-left-acad{
+    margin-bottom: 2%;
+  }
+  .div-row-acad{
+    margin-bottom: 5%;
+  }
+}
