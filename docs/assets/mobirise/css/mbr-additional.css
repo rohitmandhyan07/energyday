@@ -6279,7 +6279,7 @@ section.lazy-placeholder:after {
 }
 
 
-/* css for past academic highlights  */
+/* css for past academic highlights page  */
 .acad-row-heading{
     font-family: 'Open Sans', sans-serif;
     font-size: 1.6rem;
@@ -6292,31 +6292,67 @@ section.lazy-placeholder:after {
 .acad-row-heading>.mbr-iconfont {
     font-size: 2.5rem;
   }  
-.div-row-acad{
+/* .div-row-acad{
   border:1px solid #e9fdff;
 }
 .image-left-acad{
   /* max-width: 40%;
   display: inline-block; */
   /* position: absolute; */
-  float:left;
-  width:50%;
-  padding:2px;
+  /* float:left; */
+  /* width:50%; */
+  /* padding:2px; */
   
-}
-.text-right-acad::after{
+/* } */
+/* .text-right-acad::after{ */
   /* display: table;
   display: inline-block;
   position: absolute; */
-  content: "";
-  clear: both;
-  display: table;
+  /* content: ""; */
+  /* clear: both; */
+  /* display: table; */
+/* } */
+/* .text-right-acad{ */
+  /* color: black; */
+  /* font-size : 20.8px; */
+  /* text-align: center !important;  */
+/* } */
+/* .figcaption{ */
+  /* float: left !important; */
+  /* clear: both; Ensures that the figcaption appears below the floated image */
+  /* text-align: center; Centers the text */
+  /* color: #002b45; Matches the color specified inline in the HTML */
+  /* display: block; */
+/* } */ 
+
+
+
+/* chatgpt written css code with html change  */
+.div-row-acad {
+  overflow: hidden; /* Clear the float */
 }
-.text-right-acad{
+
+.acad-content {
+  /* margin-left: 50%; Adjust margin to accommodate the image */
+}
+
+.image-left {
+  float: left;
+  width: 50%;
+  padding: 2px;
+}
+
+.text-right {
   color: black;
-  font-size : 20.8px;
-  text-align: center !important; 
+  font-size: 20.8px;
+  text-align: justify;
 }
+
+.figcaption {
+  text-align: center;
+  color: #002b45;
+}
+
 
 @media screen and (max-width: 300px) {
   /* .text-right{
