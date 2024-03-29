@@ -6336,23 +6336,25 @@ section.lazy-placeholder:after {
   /* margin-left: 50%; Adjust margin to accommodate the image */
 }
 
-.image-left {
+.image-left-acad {
   float: left;
   width: 50%;
   padding: 2px;
 }
 
-.text-right {
+.text-right-acad {
   color: black;
   font-size: 20.8px;
   text-align: justify;
 }
 
-.figcaption {
+figcaption {
   text-align: center;
   color: #002b45;
 }
-
+.abstract-image-acad{
+  max-width: 100%;
+}
 
 @media screen and (max-width: 300px) {
   /* .text-right{
@@ -6370,25 +6372,64 @@ section.lazy-placeholder:after {
     font-size: 13.6px;
     margin-bottom: 8%;
   }
+  .acad-row-heading{
+    margin-bottom: 4%;
+  }
+  figcaption{
+    margin-top: 5%;
+    margin-bottom: 4%;
+  }
+  body{
+    margin-left: 2%;
+    margin-right: 2%;
+    /* box-sizing: border-box; */
+  }
+
 }
 @media screen and (min-width: 374px) and (max-width: 500px) {/* for Middle(375px) and Large(425px) size mobiles */
   .image-left-acad{
     width: 100%;
   }
+  .acad-row-heading{
+    margin-bottom: 4%;
+  }
   .text-right-acad{
     font-size: 16.2px;
     margin-bottom: 8%;
+  }
+  figcaption{
+    margin-top: 5%;
+    margin-bottom: 4%;
+  }
+  body{
+    margin-left: 2%;
+    margin-right: 2%;
+    /* box-sizing: border-box; */
   }
 }
 
 @media screen and (min-width: 500px) and (max-width: 769px){/* For tablet size ~ 768px*/
   .image-left-acad{
-    width: 55%;
-    
+    width: 100%;
+  }
+  .acad-row-heading{
+    margin-bottom: 4%;
   }
   .text-right-acad{
     font-size: 13px;
+    margin-bottom: 8%;
+  }
+  figcaption{
+    margin-top: 5%;
     margin-bottom: 4%;
+  }
+  #figimgD1{
+    margin-right: 0% !important;
+    /* padding-right: 11%; */
+  }
+
+  #imgD1{
+    padding-left: 10%;
   }
 }
 @media screen and (min-width: 770px) { /* for bigger than tablet , eg. laptop(1024px, 1520px) tv etc. */
@@ -6397,8 +6438,26 @@ section.lazy-placeholder:after {
   }
   .image-left-acad{
     margin-bottom: 2%;
+    margin-right: 4%;
   }
   .div-row-acad{
     margin-bottom: 5%;
+  }
+  .abstract-image-acad{
+    margin-bottom: 9%;
+  }
+  #figimgD1{
+    margin-right: -6% !important;
+    padding-right: 11%;
+  }
+
+  #imgD1{
+    
+  }
+  #figimgD3{
+  }
+  #imgD3{
+    padding-top: 5%;
+    margin-bottom: -13% !important;
   }
 }
