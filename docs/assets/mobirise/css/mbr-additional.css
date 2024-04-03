@@ -6435,6 +6435,7 @@ figcaption {
 @media screen and (min-width: 770px) { /* for bigger than tablet , eg. laptop(1024px, 1520px) tv etc. */
   .text-right-acad{
     margin-top: 6%;
+    font-size: 15.8px;
   }
   .image-left-acad{
     margin-bottom: 2%;
